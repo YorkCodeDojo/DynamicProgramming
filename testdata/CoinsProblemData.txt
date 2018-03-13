@@ -1,0 +1,43 @@
+Coins Problem
+
+British Coins
+================
+coins = [1,2,5,10,20,50]
+target = 1
+expectedResult = 1, [1]
+
+target = 3
+expectedResult = 2, [2,1]
+
+target = 5
+expectedResult 1, [5]
+
+target = 9
+expectedResult = 3, [5,2,2]
+
+target = 11
+expectedResult = 2, [10,1]
+
+target = 23
+expectedResult = 3, [20,2,1]
+
+target = 49
+expectedResult = 5, [20,20,5,2,2]
+
+target = 87
+expectedResult = 5, [50,20,10,5,2]
+
+Lilliputian Coins
+=======================
+coins = [1,4,15,20,50]
+target = 3
+expectedResult = 3, [1,1,1]
+
+target = 10
+expectedResult = 4, [4,4,1,1]
+
+target = 23
+expectedResult = 3, [15,4,4]
+
+target = 32
+expectedResult = 4, [15,15,1,1]
